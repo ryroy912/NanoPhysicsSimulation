@@ -1,5 +1,3 @@
-1. Introduction-
-2. 
 # Lennard-Jones Simulation with Transformer-Based Prediction
 
 This project simulates the interaction of two atoms using the Lennard-Jones potential and trains deep learning models (like Transformers) to predict atomic trajectories over time. The project is modular and supports multiple simulators, models, and visualization techniques.
@@ -18,12 +16,12 @@ LennardJones-Simulation/ ├── main.py # Central entry script (CLI enabled) 
 
 ├── utils/ │ ├── data_utils.py # Min-Max normalization and data wrangling │ └── config.py # Simulation config
 
-2. Install Dependencies
+## Install Dependencies
 Make sure you have Python ≥ 3.7 installed.
 
 pip install -r requirements.txt
 
-3. Run the Project via Command Line
+## Run the Project via Command Line
 Train and test the Transformer model using the Lennard-Jones simulator:
 
 python main.py --simulator lj --model transformer --train --test
